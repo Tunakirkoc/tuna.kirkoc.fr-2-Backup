@@ -1,0 +1,30 @@
+body {
+  padding: 0;
+  margin: 0;
+  color: rgb(255, 255, 255);
+  background: rgb(49, 49, 49);
+}
+.navbar {
+  display: block;
+  background: rgb(42, 42, 42);
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  margin-bottom: 16px;
+  font-size: 32px;
+  letter-spacing: 1px;
+  border-bottom: 1px solid rgb(255, 255, 255);
+  text-align: right;
+}
+.navbar a {
+  padding: 8px 16px ;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+.navbar a:hover {
+  color:rgb(0, 0, 0);
+}
+
+.navbar a.active {
+  text-decoration: underline;
+}
